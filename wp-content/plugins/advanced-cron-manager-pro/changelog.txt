@@ -1,0 +1,101 @@
+= 2.7.2 =
+* [Added] An expired license notice.
+
+= 2.7.1 =
+* [Fixed] Timezone shift using schyntax.
+
+= 2.7.0 =
+* [Added] Schyntax support - events can now be scheduled to run on particular day or hour.
+
+= 2.6.2 =
+* [Fixed] PHP 8.2 deprecations with dynamic class props.
+* [Added] License activation prompt.
+* [Added] PHP 8.2 compatibility.
+
+= 2.6.1 =
+* [Fixed] PHP<8 compatibility.
+
+= 2.6.0 =
+* [Added] Listeners - you can now see all the methods hooked into the particular event.
+* [Added] Ability to set different schedule while rescheduling an event.
+
+= 2.5.3 =
+* [Fixed] Unauthorized actions. Now all the plugin actions are checking if the user is allowed to run them.
+
+= 2.5.2 =
+* [Changed] Compatibility with Notification plugin in version 8.
+* [Fixed] Notification merge tags.
+
+= 2.5.1 =
+* [Fixed] Displaying of the event arguments in logs.
+
+= 2.5.0 =
+* [Fixed] Logging multiple concurent events running in the same cron batch.
+* [Fixed] Notification plugin integration.
+* [Added] Ability to implement own event trackers.
+* [Added] Peak memory usage metric.
+* [Changed] Event execution time is now tracked with milliseconds.
+
+= 2.4.3 =
+* [Changed] Autoloader requirement to absolute path.
+* [Fixed] Notice in logger when no error has been caught.
+
+= 2.4.2 =
+* [Fixed] Event not displaying the logs table
+
+= 2.4.1 =
+* [Changed] Updated composer dependencies
+
+= 2.4.0 =
+* [Added] Event rescheduling feature
+* [Changed] Removed old documentation link
+
+= 2.3.7 =
+* [Changed] Compatibility with Notification plugin in version 6
+
+= 2.3.6 =
+* [Changed] JavaScript hooks library which was conflicting with Gutenberg
+
+= 2.3.5 =
+* [Added] Event unscheduled trigger for Notification plugin
+* [Added] Event scheduled trigger for Notification plugin
+
+= 2.3.4 =
+* [Fixed] Wrong logs deletion on log limit
+
+= 2.3.3 =
+* [Fixed] Missing old plugin file error fix
+* [Changed] New notification trigger
+
+= 2.3.2 =
+* [Fixed] Log rows for particular Event, variables are not overwritten
+
+= 2.3.1 =
+* [Fixed] Obsolete AJAX function usage
+* [Fixed] Warning when memory usage cannot be expressed
+
+= 2.3.0 =
+* [Changed] Updated Composer libraries
+* [Changed] Proper compatibility with PHP 5.4
+
+= 2.2.1 =
+* [Added] Compatibility with PHP 5.3 with Dice library
+* [Changed] PHP 5.6 requirement to PHP 5.3
+
+= 2.2.0 =
+* [Changed] Updated Composer libraries
+* [Changed] Changed DI52 Container to Dice in own namespace
+
+= 2.1.1 =
+* [Changed] Requirements lib has been moved to Composer
+* [Changed] Better license management
+
+= 2.1.0 =
+* [Changed] Utilities classes has been moved to separate composer libraries
+* [Changed] Requirements checks
+* [Changed] date() function to date_i18n()
+
+= 2.0.0 =
+* [Changed] Entire codebase
+* [Added] Different type of loggers (errors, warnings, notices, performance)
+* [Added] Debugging tool

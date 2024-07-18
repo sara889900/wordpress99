@@ -1,0 +1,371 @@
+# Translation of Plugins - Smush Image Optimization – Optimize Images | Compress &amp; Lazy Load Images | Convert WebP | Image CDN - Stable (latest release) in Arabic
+# This file is distributed under the same license as the Plugins - Smush Image Optimization – Optimize Images | Compress &amp; Lazy Load Images | Convert WebP | Image CDN - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-05-23 13:00:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))));\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ar\n"
+"Project-Id-Version: Plugins - Smush Image Optimization – Optimize Images | Compress &amp; Lazy Load Images | Convert WebP | Image CDN - Stable (latest release)\n"
+
+#: app/views/bulk/meta-box.php:97
+msgid "Click to start Bulk Smushing images in Media Library"
+msgstr "اضغط لبدء عملية ضغط الصور الموجودة في مكتبة الوسائط"
+
+#: app/views/cdn/disabled-meta-box.php:46
+msgid "GET STARTED"
+msgstr "الشروع في ..."
+
+#: app/class-abstract-summary-page.php:198
+#: app/class-abstract-summary-page.php:211
+msgid "Select a directory you'd like to Smush."
+msgstr "إختر المجلد الذي تريد ضغطه. "
+
+#: app/class-media-library.php:384
+msgid "Smush Stats"
+msgstr "إحصائيات Smush"
+
+#: core/class-core.php:329
+msgid "Give us a moment while we sync the stats."
+msgstr "المرجو الإنتظار بينما يتم مزامنة الإحصائيات."
+
+#: app/pages/class-integrations.php:88
+msgid "Note: For this process to happen automatically you need automatic smushing enabled."
+msgstr "ملاحظة: لجعل هذه العملية تلقائية يجب على خاصية الضغط الاتوماتيكي أن تكون مفعلة. "
+
+#: app/common/meta-box-footer.php:37
+msgid "Smush will automatically check for any images that need re-smushing."
+msgstr "Smush سيتحقق بشكل تلقائي من الصور التي تحتاج إلى إعادة الضغط. "
+
+#: core/class-core.php:333
+msgid "Stop current bulk smush process."
+msgstr "إيقاف عملية الضغط دفعة واحدة الجارية الأن.  "
+
+#: app/class-abstract-summary-page.php:131
+msgid "PNG to JPEG savings"
+msgstr "توفيرات التحويل من PNG إلى JPEG"
+
+#: app/views/nextgen/summary-meta-box.php:49
+msgid "Total savings"
+msgstr "إجمالي التوفيرات"
+
+#: app/views/nextgen/summary-meta-box.php:41
+msgid "Images smushed"
+msgstr "الصور المضغوطة"
+
+#: core/integrations/class-s3.php:397
+msgid "Amazon S3 support is active."
+msgstr "دعم Amazon S3 مفعل."
+
+#: core/class-configs.php:653 core/integrations/class-s3.php:197
+msgid "Amazon S3"
+msgstr "Amazon S3"
+
+#: core/integrations/class-s3.php:196
+msgid "Enable Amazon S3 support"
+msgstr "تفعيل دعم Amazon S3 "
+
+#: core/class-configs.php:654 core/integrations/class-nextgen.php:127
+msgid "NextGen Gallery"
+msgstr "معرض NextGen"
+
+#: app/class-abstract-summary-page.php:199
+#: app/class-abstract-summary-page.php:212 app/modals/directory-list.php:56
+msgid "Choose directory"
+msgstr "إختر مجلد"
+
+#: app/class-abstract-summary-page.php:195
+msgid "Smush images that aren't located in your uploads folder."
+msgstr "ضغط الصور الغير الموجودة في مجلد الرفع."
+
+#: app/views/smush-upgrade-page.php:162 core/class-settings.php:313
+msgid "Auto-convert PNGs to JPEGs (lossy)"
+msgstr "التحويل التلقائي من PNG إلى JPEG "
+
+#: app/pages/class-bulk.php:185
+msgid "Max height"
+msgstr "الارتفاع الأقصى"
+
+#: app/pages/class-bulk.php:173
+msgid "Max width"
+msgstr "العرض الاقصى"
+
+#: core/modules/class-dir.php:280
+msgid "Incorrect image id"
+msgstr "رقم تعريف الصورة خاطئ"
+
+#: core/modules/class-dir.php:332
+msgid "Image couldn't be optimized"
+msgstr "الصورة  لا يمكن تحسينها "
+
+#: core/modules/class-dir.php:945
+msgid "We could not find any images in the selected directory."
+msgstr "لا يوجد أي صور بالمجلد الذي اخترته."
+
+#: app/views/directory/meta-box.php:28
+msgid "CHOOSE DIRECTORY"
+msgstr "إختر مجلد"
+
+#: app/class-abstract-summary-page.php:154
+#: app/class-abstract-summary-page.php:205
+msgid "Updating Stats"
+msgstr "تحديث الإحصائيات"
+
+#: core/class-core.php:326
+msgid "Ajax Error"
+msgstr "خطأ Ajax "
+
+#: core/class-core.php:324
+msgid "images could not be smushed."
+msgstr "الصور لم يتم ضغطها "
+
+#: core/class-core.php:323
+msgid "image could not be smushed."
+msgstr "الصورة لم يتم ضغطها "
+
+#: core/class-core.php:320
+msgid "Missing file path."
+msgstr "مسار الملف غير موجود."
+
+#: app/views/nextgen/meta-box-header.php:26
+msgid "Manage Galleries"
+msgstr "إدارة المعارض"
+
+#: core/media-library/class-media-library-row.php:622
+msgid "Detailed stats for all the image sizes"
+msgstr "إحصائيات مفصلة لجميع مقاسات الصور"
+
+#: app/pages/class-bulk.php:218
+msgid "Just to let you know, the height you’ve entered is less than your largest image and may result in pixelation."
+msgstr "فقط لإعلامك، الإرتفاع الذي أدخلته أصغر من إرتفاع أكبر صورة موجودة مما قد يأدي إلى فقدان دقة الصورة"
+
+#: app/pages/class-bulk.php:210
+msgid "Just to let you know, the width you've entered is less than your largest image and may result in pixelation."
+msgstr "فقط لإعلامك، العرض الذي أدخلته أصغر من عرض أكبر صورة موجودة مما قد يأدي إلى فقدان دقة الصورة"
+
+#: app/class-abstract-page.php:763
+msgid "Your settings have been updated!"
+msgstr "لقد تم تحديث جميع الاعدادات!"
+
+#: app/modals/progress-dialog.php:103
+msgid "CANCEL"
+msgstr "إلغاء"
+
+#: app/views/bulk/media-lib-empty.php:5 app/views/nextgen/meta-box.php:25
+msgid "No attachments found - Upload some images"
+msgstr "لم يتم العثور على اية مرفقات - قم برفع بعض الصور"
+
+#: app/class-abstract-page.php:678
+msgid "Lets you check if any images can be further optimized. Useful after changing settings."
+msgstr "يمكنك من التحقق إذا كانت أي صورة يمكن تحسينها أكثر. مفيد بعد تغير الاعدادات."
+
+#: app/views/bulk/meta-box.php:98 app/views/nextgen/meta-box.php:81
+msgid "BULK SMUSH"
+msgstr "ضغط دفعة واحدة"
+
+#: app/views/bulk/meta-box-header.php:34
+msgid "Media Library"
+msgstr "مكتبة الوسائط"
+
+#. translators: %s: error message
+#: core/integrations/class-nextgen.php:697
+msgid "Unable to smush image, %s"
+msgstr "لا يمكن ضغط الصورة، %s"
+
+#: core/integrations/class-nextgen.php:657
+msgid "We couldn't process the image, fields empty."
+msgstr "لم نستطع معالجة الصورة. الحقول فارغة."
+
+#: core/integrations/class-nextgen.php:355
+#: core/integrations/class-nextgen.php:356
+msgid "We couldn't find the metadata for the image, possibly the image has been deleted."
+msgstr "لم نجد البيانات الوصفية للصورة، الصورة ربما تم حدفها."
+
+#: core/backups/class-backups-controller.php:73
+#: core/integrations/class-nextgen.php:644 core/modules/class-backup.php:597
+msgid "Unable to restore image"
+msgstr "لايمكن إسترجاع الصور"
+
+#: core/integrations/class-nextgen.php:543
+msgid "Image not restored, Nonce verification failed."
+msgstr "لايمكن استعادة الصورة، فشل في التحقق."
+
+#: app/views/bulk/media-lib-empty.php:17
+#: app/views/dashboard/bulk/media-lib-empty.php:10
+#: app/views/nextgen/meta-box.php:42
+msgid "UPLOAD IMAGES"
+msgstr "رفع صور"
+
+#: core/class-core.php:319
+msgid "Your membership couldn't be verified."
+msgstr "لا يمكن التحقق من إشتراكك. "
+
+#: core/class-core.php:318
+msgid "We successfully verified your membership, all the Pro features should work completely. "
+msgstr "تم التحقق من اشتراكك بنجاح، الخصائص الإحترافية تعمل كليا. "
+
+#. translators: %s: total number of images
+#: core/modules/class-dir.php:1250
+msgid "You've smushed %d images in total."
+msgstr "مجموع الصور المضغوطة %d."
+
+#: app/class-admin.php:609 core/integrations/nextgen/class-admin.php:567
+msgid "Yay! All images are optimized as per your current settings."
+msgstr "رائع! جميع الصور تم تحسينها حسب الاعدادات الحالية."
+
+#: app/class-ajax.php:395 core/integrations/class-nextgen.php:666
+msgid "Image couldn't be smushed as the nonce verification failed, try reloading the page."
+msgstr "لا يمكن ضغط الصورة بسبب فشل في التحقق، حاول إعادة تحميل الصفحة."
+
+#: app/class-ajax.php:386
+msgid "Image not smushed, fields empty."
+msgstr "الصورة لم تضغط، الحقول فارغة."
+
+#: core/integrations/class-nextgen.php:533
+msgid "Error in processing restore action, Fields empty."
+msgstr "خطأ أثناء معالجاة عملية الإسترجاع، الحقول فارغة."
+
+#: core/class-core.php:296 core/integrations/nextgen/class-admin.php:229
+msgid "All images are fully optimized."
+msgstr "جميع الصور محسنة كليا."
+
+#: core/integrations/class-nextgen.php:128
+msgid "Allow smushing images directly through NextGen Gallery settings."
+msgstr "السماح بضغط الصور مباشرة عن طريق إعدادات NextGeN Gallery."
+
+#: core/integrations/class-nextgen.php:126
+msgid "Enable NextGen Gallery integration"
+msgstr "تفعيل خاصية دمج NextGen Gallery"
+
+#: app/views/webp/meta-box-header.php:65
+msgid "New"
+msgstr "جديد "
+
+#: app/class-abstract-page.php:250
+msgid "Install Plugin"
+msgstr "تنصيب الإضافة"
+
+#: app/class-abstract-page.php:736 app/class-admin.php:523
+#: app/class-admin.php:728 app/class-admin.php:772
+#: app/pages/class-directory.php:176 app/pages/class-directory.php:177
+#: core/class-cache-controller.php:64 core/class-core.php:340
+#: core/external/free-dashboard/classes/notices/class-rating.php:82
+#: core/external/plugin-notice/notice.php:485
+msgid "Dismiss"
+msgstr "تجاهل"
+
+#. Author of the plugin
+#: wp-smush.php
+msgid "WPMU DEV"
+msgstr "WPMU DEV"
+
+#: app/class-media-library.php:387
+#: core/integrations/nextgen/class-admin.php:762
+#: core/media-library/class-media-library-row.php:467
+msgid "Savings"
+msgstr "التوفيرات"
+
+#: app/class-media-library.php:386
+#: core/integrations/nextgen/class-admin.php:761
+#: core/media-library/class-media-library-row.php:466
+msgid "Image size"
+msgstr "حجم الصورة"
+
+#: app/class-media-library.php:427
+msgid "Smush Now!"
+msgstr "إضغط الأن!"
+
+#: app/class-media-library.php:496 core/class-core.php:338
+#: core/class-error-handler.php:263 core/class-rest.php:82
+#: core/integrations/nextgen/class-admin.php:269
+#: core/media-library/class-media-library-row.php:80
+#: core/media-library/class-media-library-row.php:355
+msgid "Not processed"
+msgstr "غير معالجة"
+
+#: core/integrations/nextgen/class-admin.php:713
+msgid "Smush stats"
+msgstr "إحصائيات الضغط"
+
+#: core/class-core.php:325 core/integrations/nextgen/class-admin.php:667
+#: core/integrations/nextgen/class-admin.php:670
+msgid "Already Optimized"
+msgstr "مضغوطة سابقا"
+
+#: core/modules/class-smush.php:560 core/smush/class-smusher.php:395
+msgid "Image couldn't be smushed"
+msgstr "صورة لايمكن ضغطها"
+
+#: core/modules/class-smush.php:577 core/smush/class-smusher.php:431
+msgid "Smush data corrupted, try again."
+msgstr "بيانات الضغط تالفة. المرجو المحاولة مرة أخرى."
+
+#. translators: %s: Error message.
+#: core/modules/class-smush.php:540 core/smush/class-smusher.php:371
+msgid "Error posting to API: %s"
+msgstr "خطأ في الإرسال لل-API: %s "
+
+#: core/modules/class-smush.php:566 core/smush/class-smusher.php:407
+msgid "Unknown API error"
+msgstr "خطأ API غير معروف"
+
+#. translators: %s: Directory path
+#: core/class-error-handler.php:269
+msgid "%s is not writable"
+msgstr "%s غير قابل للكتابة"
+
+#: core/class-error-handler.php:261
+msgid "File path is empty"
+msgstr "مسار الملف فارغ "
+
+#: app/class-ajax.php:365 core/integrations/class-nextgen.php:428
+msgid "No attachment ID was provided."
+msgstr "رقم تعريف المرفق غير موجود."
+
+#: app/class-ajax.php:357 app/class-ajax.php:403
+#: core/backups/class-backups-controller.php:56
+#: core/integrations/class-nextgen.php:420
+#: core/media/class-media-item-controller.php:29
+#: core/media/class-media-item-controller.php:56
+#: core/modules/class-backup.php:408
+msgid "You don't have permission to work with uploaded files."
+msgstr "لا يوجد لديك صلاحيات العمل على الملفات المرفوعة."
+
+#: app/class-admin.php:334 app/pages/class-bulk.php:129
+#: _src/react/modules/configs.jsx:150
+#: app/assets/js/smush-react-configs.min.js:6597
+msgid "Settings"
+msgstr "إعدادات"
+
+#: core/class-core.php:293 core/integrations/nextgen/class-admin.php:227
+msgid "Smush Now"
+msgstr "إضغط الأن"
+
+#: core/class-core.php:292 core/integrations/nextgen/class-admin.php:226
+msgid "Super-Smush"
+msgstr "Super Smush"
+
+#: core/class-core.php:328
+msgid "All Done!"
+msgstr "إنتهاء"
+
+#: app/class-admin.php:381
+msgid "WP Smush"
+msgstr "WP Smush"
+
+#: core/external/free-dashboard/classes/notices/class-email.php:98
+msgid "No thanks"
+msgstr "لا شكراً"
+
+#: core/external/free-dashboard/classes/notices/class-email.php:93
+#: core/external/free-dashboard/classes/notices/class-rating.php:77
+msgid "Thanks :)"
+msgstr "شكراً "
+
+#: core/external/free-dashboard/classes/notices/class-email.php:97
+#: core/external/free-dashboard/classes/notices/class-rating.php:81
+msgid "Saving"
+msgstr "جاري الحفظ"
